@@ -1,0 +1,18 @@
+.spinner{
+  width: 55px;
+  height: 56px;
+ 
+  margin-right: 50%;
+  border-radius: 50%;
+  background: conic-gradient(#0000 10%,#474bff);
+  -webkit-mask:radial-gradient(farthest-side,#0000 calc(100%-9px),#000 0);
+  animation: spinner-zp9dbg 1s infinite linear;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes spinner-zp9dbg{
+  to{
+    transfrom:rotate(1turn)
+  }
+}
